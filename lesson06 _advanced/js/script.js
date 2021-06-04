@@ -14,11 +14,14 @@ const checkCancel = function(prompt){
 function Ugadayka(){
     let magicNumber, userNumber, msg;
     let numAttempts = 10;
+    /* Bad way
     do{
         magicNumber = +prompt('Загадайте число от 1 до 100?');            
     }
     while(!isNumber(magicNumber) || magicNumber < 1 || magicNumber > 100);
-
+    */
+    magicNumber = Math.floor(Math.random() * 100) + 1;
+    
     function guessNumber(n){
         console.log(n, typeof n)
         if(numAttempts === 0){
