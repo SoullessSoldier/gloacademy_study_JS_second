@@ -2,4 +2,5 @@
 
 * Lesson06 - проект Угадайка
 * Lesson06_advanced - проект Угадайка с ограничением количества попыток
-* Lesson12 - ToDoшка c localstorage 
+* Lesson12 - ToDoшка c localstorage
+* Lesson13 - меняем цвет фона в рандоме
